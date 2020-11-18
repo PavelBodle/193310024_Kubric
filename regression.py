@@ -19,6 +19,7 @@ def predict_price(area) -> float:
     x = response
     x = (x-x.mean())/x.std()
     x=np.c_[np.ones(x.shape[0]), x]
+    test
     # YOUR IMPLEMENTATION HERE
     ...
 
